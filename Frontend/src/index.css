@@ -1,0 +1,74 @@
+.main-box{
+  display:flex ;
+  flex-wrap: wrap;
+  padding:10px;
+  gap:20px ;
+  min-height: 100vh;
+}
+.pagination{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* BlogItem Component Styling */
+.blog-item {
+  border: 1px solid #ddd; /* Light border for separation */
+  border-radius: 8px; /* Rounded corners */
+  padding: 16px; /* Space inside the box */
+  margin: 16px 0; /* Space between blog items */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  background-color: #fff; /* White background */
+  max-width: 600px; /* Optional: Set max width */
+  font-family: 'Arial', sans-serif; /* Default font */
+}
+
+/* User Info Section */
+.user-info {
+  display: flex; /* Align avatar and details horizontally */
+  align-items: center; /* Center content vertically */
+  margin-bottom: 12px; /* Space below user-info */
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%; /* Circular avatar */
+  background-color: #007bff; /* Placeholder background color */
+  color: #fff; /* White text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 16px; /* Space between avatar and details */
+}
+
+.user-details h1 {
+  font-size: 18px; /* Adjust heading size */
+  margin: 0; /* Remove default margin */
+  color: #333; /* Dark text color */
+}
+
+.user-details p {
+  font-size: 14px; /* Adjust text size */
+  margin: 4px 0 0; /* Space above */
+  color: #555; /* Slightly lighter text color */
+}
+
+/* Blog Description Section */
+.blog-description {
+  font-size: 16px;
+  color: #444;
+  margin: 12px 0; /* Space around the description */
+  line-height: 1.5; /* Better readability */
+}
+
+/* Blog Date Section */
+.blog-date {
+  font-size: 12px;
+  color: #777; /* Light text color */
+  text-align: right; /* Align to the right */
+  margin-top: 12px; /* Space above */
+}
